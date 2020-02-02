@@ -1,12 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<<<<<<< HEAD
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-=======
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
->>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,13 +21,17 @@
 			<div class="col-10">
 
 				<div class="row pt-4">
-<<<<<<< HEAD
 					<div class="col-sm-4">
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Minhas Compras</h5>
-								<p class="card-text text-center"><img width="200px" src="${pageContext.request.contextPath}/img/carrinho.png" alt="compras" /></p>
-								<a href="<c:url value='pages/venda.jsp' /> " class="btn btn-success">Continue</a>
+								<p class="card-text text-center">
+									<img width="200px"
+										src="${pageContext.request.contextPath}/img/carrinho.png"
+										alt="compras" />
+								</p>
+								<a href="<c:url value='pages/venda.jsp' /> "
+									class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
@@ -40,7 +39,11 @@
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Gestão de Produtos</h5>
-								<p class="card-text text-center"><img width="200px" src="${pageContext.request.contextPath}/img/bag.png" alt="compras" /></p>
+								<p class="card-text text-center">
+									<img width="200px"
+										src="${pageContext.request.contextPath}/img/bag.png"
+										alt="compras" />
+								</p>
 								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
@@ -49,7 +52,11 @@
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Gestão de Usuários</h5>
-								<p class="card-text text-center"><img width="200px" src="${pageContext.request.contextPath}/img/users.png" alt="compras" /></p>
+								<p class="card-text text-center">
+									<img width="200px"
+										src="${pageContext.request.contextPath}/img/users.png"
+										alt="compras" />
+								</p>
 								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
@@ -58,59 +65,43 @@
 
 			</div>
 		</div>
-=======
-				<div class="col-sm-4">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Minhas compras</h5>
-								<p class="card-text text-center">
-								<img
-								   width="200px" 
-								   alt="cart"
-			src="${pageContext.request.contextPath}/img/cart.png"
-								  >
-								</p>
-								<a href="<c:url value='/ComprasSrv' />" class="btn btn-success">Continue</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Gestão de produtos</h5>
-								<p class="card-text text-center">
-								<img
-								   width="200px" 
-								   alt="cart"
-			          src="${pageContext.request.contextPath}/img/produto.jpg"
-								  >
-								</p>
-								<a href="#" class="btn btn-success">Continue</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title">Gestão de usuários</h5>
-								<p class="card-text text-center"><img
-								   width="200px" 
-								   alt="cart"
-			src="${pageContext.request.contextPath}/img/user.jpg"
-								  ></p>
-								<a href="#" class="btn btn-success">Continue</a>
-							</div>
-						</div>
-					</div>
+
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">Minhas compras</h5>
+					<p class="card-text text-center">
+						<img width="200px" alt="cart"
+							src="${pageContext.request.contextPath}/img/cart.png">
+					</p>
+					<a href="<c:url value='/ComprasSrv' />" class="btn btn-success">Continue</a>
 				</div>
-
-
-
 			</div>
-
 		</div>
-
->>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">Gestão de produtos</h5>
+					<p class="card-text text-center">
+						<img width="200px" alt="cart"
+							src="${pageContext.request.contextPath}/img/produto.jpg">
+					</p>
+					<a href="#" class="btn btn-success">Continue</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">Gestão de usuários</h5>
+					<p class="card-text text-center">
+						<img width="200px" alt="cart"
+							src="${pageContext.request.contextPath}/img/user.jpg">
+					</p>
+					<a href="#" class="btn btn-success">Continue</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
 
