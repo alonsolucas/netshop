@@ -8,27 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-<<<<<<< HEAD
-@WebServlet(urlPatterns = {"/UsrSrv"})
-public class UserServlet extends HttpServlet {
-	
-	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		String login = req.getParameter("login");
-		String senha = req.getParameter("senha");
-		
-		System.out.println("O login foi: " + login);
-		System.out.println("A senha foi: " + senha);
-		
-		req.getSession().setAttribute("user", login);
-		req.getRequestDispatcher("pages/home.jsp").forward(req, resp);
-		
-		
-	}
-
-}
-=======
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -94,4 +73,3 @@ public class UserServlet extends HttpServlet {
 
 
 
->>>>>>> branch 'master' of https://github.com/edveloso/comercio.git

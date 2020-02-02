@@ -10,18 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = {"/LogoutSrv"})
 public class LogoutServlet extends HttpServlet {
-<<<<<<< HEAD
-	
-	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		req.getSession().invalidate();
-		req.getRequestDispatcher("/login.jsp").forward(req,  resp);
-		
-		
-	}
 
-=======
+	
+
 
 	/**
 	 * 
@@ -35,5 +26,4 @@ public class LogoutServlet extends HttpServlet {
 				.forward(req, resp);
 	}
 		
->>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
 }
