@@ -30,7 +30,7 @@
 										src="${pageContext.request.contextPath}/img/carrinho.png"
 										alt="compras" />
 								</p>
-								<a href="<c:url value='pages/venda.jsp' /> "
+								<a href="<c:url value='/ComprasSrv' /> "
 									class="btn btn-success">Continue</a>
 							</div>
 						</div>
@@ -66,43 +66,43 @@
 			</div>
 		</div>
 
-		<div class="col-sm-4">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">Minhas compras</h5>
-					<p class="card-text text-center">
-						<img width="200px" alt="cart"
-							src="${pageContext.request.contextPath}/img/cart.png">
-					</p>
-					<a href="<c:url value='/ComprasSrv' />" class="btn btn-success">Continue</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">Gestão de produtos</h5>
-					<p class="card-text text-center">
-						<img width="200px" alt="cart"
-							src="${pageContext.request.contextPath}/img/produto.jpg">
-					</p>
-					<a href="#" class="btn btn-success">Continue</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-4">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">Gestão de usuários</h5>
-					<p class="card-text text-center">
-						<img width="200px" alt="cart"
-							src="${pageContext.request.contextPath}/img/user.jpg">
-					</p>
-					<a href="#" class="btn btn-success">Continue</a>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- 		<div class="col-sm-4"> -->
+<!-- 			<div class="card"> -->
+<!-- 				<div class="card-body"> -->
+<!-- 					<h5 class="card-title">Minhas compras</h5> -->
+<!-- 					<p class="card-text text-center"> -->
+<!-- 						<img width="200px" alt="cart" -->
+<%-- 							src="${pageContext.request.contextPath}/img/cart.png"> --%>
+<!-- 					</p> -->
+<%-- 					<a href="<c:url value='/ComprasSrv' />" class="btn btn-success">Continue</a> --%>
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-sm-4"> -->
+<!-- 			<div class="card"> -->
+<!-- 				<div class="card-body"> -->
+<!-- 					<h5 class="card-title">Gestão de produtos</h5> -->
+<!-- 					<p class="card-text text-center"> -->
+<!-- 						<img width="200px" alt="cart" -->
+<%-- 							src="${pageContext.request.contextPath}/img/produto.jpg"> --%>
+<!-- 					</p> -->
+<!-- 					<a href="#" class="btn btn-success">Continue</a> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 		<div class="col-sm-4"> -->
+<!-- 			<div class="card"> -->
+<!-- 				<div class="card-body"> -->
+<!-- 					<h5 class="card-title">Gestão de usuários</h5> -->
+<!-- 					<p class="card-text text-center"> -->
+<!-- 						<img width="200px" alt="cart" -->
+<%-- 							src="${pageContext.request.contextPath}/img/user.jpg"> --%>
+<!-- 					</p> -->
+<!-- 					<a href="#" class="btn btn-success">Continue</a> -->
+<!-- 				</div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
 
 
 </body>

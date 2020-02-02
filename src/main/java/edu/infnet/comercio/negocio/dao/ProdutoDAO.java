@@ -41,6 +41,7 @@ public class ProdutoDAO {
 				prod.setPreco(rs.getDouble("preco"));
 				lista.add(prod);
 			}
+			System.out.println(lista);
 			return lista;
 			
 		} catch (Exception e) {

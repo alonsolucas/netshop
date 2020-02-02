@@ -20,8 +20,8 @@ public class MysqlConection {
 			String url = "jdbc:mysql://localhost:3306/comercio"
 					+ "?useTimezone=true&serverTimezone=UTC"
 					+ "&createDatabaseIfNotExist=true";
-			String user = "root";
-			String pass = "";
+			String user = "comercioAdmin";
+			String pass = "123456";
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
 				con = DriverManager.getConnection(url, user, pass);
