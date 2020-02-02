@@ -15,11 +15,22 @@
 <body>
 
 	<nav class="navbar navbar-light bg-dark">
+<<<<<<< HEAD
 	   <span class="navbar-header" >
 	       <h1>	       
 	       	<a class="nav-header" href="<c:url value='pages/home.jsp'/> ">Netshop</a>
 	       </h1>
+=======
+	   <span class="navbar-header " >
+	      <h1>
+	        <a class="nav-header" 
+	        	href="<c:url value='/pages/home.jsp' /> ">
+	        	netshop 
+	        </a>
+	      </h1> 
+>>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
 	   </span>
+<<<<<<< HEAD
 
 		<div class="navbar-text">
 			<c:if test="${not empty sessionScope.user}">
@@ -30,10 +41,30 @@
 			</c:if>
 		</div>
 
+=======
+	   
+	   <div class="navbar-text">
+	       <c:if test="${not empty sessionScope.user}">
+	       		<span class="nav-header mr-4"
+	       		> Seja bem vindo ${sessionScope.user}</span>
+	       		<a
+	       		 href="<c:url value='/LogoutSrv' />" >Logout</a>
+	       </c:if>
+	   
+	   </div>
+	   
+>>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
 	</nav>
 
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath}/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 
+=======
+			
+		
+>>>>>>> branch 'master' of https://github.com/edveloso/comercio.git
 </body>
 </html>
+
+
